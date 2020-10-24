@@ -1,17 +1,20 @@
 import React from "react";
 
+import {Link} from 'react-router-dom';
+
 const NavbarContent = () => {
   return (
-    <div className="sketchy">
+    
+<div className="sketchy">
       <ul>
         <li>
-          <a href="/">Accueil</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <a href="/">Calendrier</a>
         </li>
         <li>
-          <a href="/">Album</a>
+          <Link to="/Album">Album Photos</Link>
         </li>
         <li>
           <a href="/">Hébergement</a>
@@ -27,6 +30,8 @@ const NavbarContent = () => {
         </li>
       </ul>
     </div>
+    
+    
   );
 };
 

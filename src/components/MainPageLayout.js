@@ -9,6 +9,10 @@ const MainPageLayout = styled.div`
     "nav nav nav"
     "main main main";
   font-family: "Montserrat", sans-serif;
+  width: 1000px;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
 `;
 
 export default MainPageLayout;
